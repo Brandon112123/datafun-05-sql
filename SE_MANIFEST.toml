@@ -15,56 +15,49 @@ purpose = "To make explicit the boundaries, responsibilities, and expectations o
 keywords_note = "Keywords live only in CITATION.cff (canonical)."
 
 [repo]
-name   = "datafun-05-sql"
-org    = "denisecase"
-kind   = "software"
+name = "datafun-05-sql"
+org = "denisecase"
+kind = "software"
 status = "academic"
-since  = "2026"
+since = "2026"
 summary = "Data Analytics Fundamentals Project 05: Working with relational data using SQL and file-based databases."
 
 [layer]
 space = "Data Analytics"
-role  = "post-secondary-education"
+role = "post-secondary-education"
 
 [depends]
 # WHY: These tools are required to complete and run the project as designed
 #      (local development, execution, and dependency management).
-required = [
-  "python>=3.14",
-  "uv",
-  "git",
-]
+required = ["python>=3.14", "uv", "git"]
 # WHY: Optional tools are not required to use or run the repository.
-optional = [
-  "mkdocs",
-  "ruff",
-  "pyright",
-  "pytest",
-  "lychee",
-]
+optional = ["mkdocs", "ruff", "pyright", "pytest", "lychee"]
 
 [provides]
 artifacts = [
-  "README.md",
-  "sql",
-  "src",
-  "SE_MANIFEST.toml",
+    ".claude/CLAUDE.md",
+    ".github/copilot-instructions.md",
+    "AGENTS.md",
+    "README.md",
+    "sql",
+    "src",
+    "SE_MANIFEST.toml",
 ]
 
 [scope]
 includes = [
-  "relational data concepts",
-  "two-table joins",
-  "aggregation and grouping",
-  "SQL queries stored as files",
-  "Python and SQL integration",
-  "file-based databases (DuckDB, SQLite)",
+    "relational data concepts",
+    "two-table joins",
+    "aggregation and grouping",
+    "SQL queries stored as files",
+    "Python and SQL integration",
+    "file-based databases (DuckDB, SQLite)",
 ]
 excludes = [
-  "distributed systems",
-  "data engineering pipelines",
-  "machine learning",
-  "database administration",
+    "distributed systems",
+    "data engineering pipelines",
+    "machine learning",
+    "database administration",
 ]
 
 [citation]
