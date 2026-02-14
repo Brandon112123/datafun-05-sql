@@ -138,6 +138,7 @@ Run the Python source files:
 
 ```shell
 uv run python -m datafun_05_sql.case_duckdb_retail
+uv run python -m datafun_05_sql.brandon_duckdb_shelter
 ```
 
 Run Python checks and tests (as available):
@@ -197,7 +198,7 @@ If you do library, you would add a new file for each of those (~7) files like so
 - yourname_library_query_kpi_checkouts.sql (or whatever KPI you want to explore)
 - ....
 
-1. Copy `case_duckdb_retail.py` to reflect your name or alias and your domain.
+1. Copy `brandon_duckdb_retail.py` to reflect your name or alias and your domain.
 2. Edit this README.md file to add a new run command to execute your file instead.
 3. Preview this README.md to make sure it still appears correctly.
    - Find README.md in the VS Code Explorer window (top icon on the left)
